@@ -18,8 +18,8 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Motor Vehicle Crashes", page_icon="🚗")
 
 #Import Data
-path = "C:/Users/sirac/OneDrive - Bentley University/CS 230/"
-df_crash = pd.read_csv(path + "2017_Crashes.csv", index_col='OBJECTID', nrows=10000)
+
+df_crash = pd.read_csv('2017_Crashes_10000_sample.csv')
 
 
 #Sidebar
